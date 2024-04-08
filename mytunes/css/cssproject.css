@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#nav_mod{
+   border: 1px solid black;
+   background-color: #333333;
+   display: flex;
+   gap: 13px;
+   height: 40px;
+   position: sticky;
+   top: 0px;
+  
+}
+#nav_mod>section:hover{
+    background-color:rgba(80, 76, 76, 0.6);
+    border: 1px solid rgba(80, 76, 76, 0.6);
+    height: 40px;
+    width: 110px;
+
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+    margin: 17px;
+}
+.section_mod{
+    line-height: 45px;
+   
+}
+#myTuns{
+    border: 1px solid black;
+    height: 580px;
+    max-width: 1347px;
+    /* position: relative; */
+    background-image: url(../img/mytunes.jpeg)  ;
+    background-repeat: no-repeat;
+    background-size: 1360px 1000px ;
+    background-position: center;
+    
+}
+#overview{
+    border: 1px solid black;
+   max-height: 1250px;
+   max-width: 1347px;
+    background-color: #252529;
+    text-align: center;
+}
+p+h1{
+
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 140px;
+    font-size: 60px;
+
+}
+.para{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+
+}
+p+#para1{
+    margin-top:60px ;
+    font-size: 28px;
+    font-weight: bold;
+}
+#icon{
+ color:#FFFFFF;
+ text-align: center;
+ font-size: 35px;
+ font-family: 'PT Sans', sans-serif;
+ font-weight: bold;
+ padding-top: 45px;
+ 
+}
+#para2{
+    margin-top: 5px;
+    margin:50px;
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+#overview>p:nth-child(3){
+    color:#FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 40px;
+}
+#overview>p:nth-child(4){
+    color:#FFFFFF;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 10px;
+    margin: 44px;
+    line-height: 30px;
+}
+#button1{
+    background-color: #B90415;
+    color:#FFFFFF;
+    font-size: 15px;
+    padding: 20px;
+    
+}
+#overview>p:nth-child(6){
+    color:#FFFFFF;
+    text-align:center;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 35px;
+    font-size: 15px;
+}
+#music{
+    border: 1px solid black;
+    width: 1347px;
+    max-height:1600px;
+    text-align: center;
+}
+#music>p+h3{
+    font-family: 'PT Sans', sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 80px;
+        color: #333333;
+
+}
+#paraa{
+    font-family: 'PT Sans', sans-serif;
+    color: #333333;
+    padding-top:30px ;
+    text-align: center;
+    /* margin-right: 40px; */
+    /* font-weight: 100px; */
+    margin-inline: 100px;
+    line-height: 30px;
+    font-size: 20px;
+
+
+}
+#button2{
+    background-color: #103063;
+    padding: 18px;
+    color: #FFFFFF;
+    margin-top: 20px;
+   
+}
+#section_img{
+    border: 1px solid black;
+    height: 500px;
+    width: 1347px;
+    background-image: url(../img/section.jpeg);
+    background-repeat: no-repeat;
+    background-size:1347px 500px ;
+}
+#section_img{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+#section_img>p:nth-child(2){
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 75px;
+    line-height: 30px;
+
+}
+#section_img>p:nth-child(1){
+    margin-top: 180px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#gift_card{
+    /* border: 1px solid black; */
+    height: 400px;
+    width: 1347px;
+    /* text-align: center; */
+    display: flex;
+    font-family: 'PT Sans', sans-serif;
+   color: #333333;
+    /* justify-content: center; */
+    /* flex-basis: 500px; */
+}
+#gift_card>section:nth-child(1){
+    /* border: 1px solid black; */
+    height:388px;
+    width: 900px;
+    text-align: center;
+    /* margin-right: 50px; */
+    padding-top: 10px;
+    margin-left: 0px;
+   
+}
+#gift_card>section:nth-child(2){
+  text-align: start;
+  height: 500px;
+   width: 950px;
+   margin: 0px;
+   margin-right: 35px;
+   margin-top: 30px;
+   line-height: 25px;
+   font-size: 17px;
+    
+}
+section>img{
+    margin-left: 100px;
+}
+#gift_card>section:nth-child(2)>a{
+    color: #333333;
+}
+#footer_main{
+    font-family: 'PT Sans', sans-serif;
+    border: 1px solid black;
+    max-width: 1347px;
+    height: 300px;
+    background-color: #252529;
+    padding: 0.2rem;
+}
+
+#footer_con{
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+   padding: 80px;
+   
+    
+}
+li{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 0.5rem;
+    color: #FFFFFF;
+    line-height: 20px;
+}
+.lhead{
+    
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+li+hr{
+    margin-bottom: 20px;
+    color: #252529;
+    background-color: #333333;
+
+}
+#end{
+    /* border: 1px solid black; */
+    height: 30px;
+    width: 1347px;
+    background-color: #333333;
+    color: #FFFFFF;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    padding-top: 30px ;
+    font-size: 16px;
+}
